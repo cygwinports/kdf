@@ -1,8 +1,10 @@
-inherit kde4
+inherit kf5
 
 NAME="kdf"
-VERSION=15.04.3
+VERSION=16.08.3
 RELEASE=1
 CATEGORY="Utils"
 SUMMARY="KDE df frontend"
 DESCRIPTION="Part of the KDE utilities suite"
+
+PATCH_URI="16.08-cmake.patch"
